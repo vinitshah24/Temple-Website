@@ -1,0 +1,10 @@
+- Fabian Lins
+- 06/03/2019
+- Responsive jQuery Flyout Menu
+- Version 1.0
+- Source code
+- contact@fabianlins.com
+- https://github.com/FabianLins/flyout_menu
+- https://www.jqueryscript.net/menu/fixed-flyout-menu.html
+
+Lins, F (2019) Responsive jQuery Flyout Menu source code (Version 1.0) [Source code]. https://github.com/FabianLins/flyout_menu

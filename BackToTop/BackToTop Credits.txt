@@ -1,0 +1,10 @@
+- Ding Sheng 
+- 11/02/2018
+- jQuery goTop.js
+- Version 1.0
+- Source code
+- https://github.com/nekoleamo/jQuery.goTop.js
+- https://www.jqueryscript.net/animation/Back-To-Top-jQuery-goTop.html
+
+Sheng, D (2018) Simple Practical Back to Top Plugin - jQuery goTop.js (Version 1.0) [source code]. 
+https://github.com/FabianLins/flyout_menu

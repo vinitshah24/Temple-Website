@@ -1,0 +1,39 @@
+/**
+- Fabian Lins
+- 06/03/2019
+- Responsive jQuery Flyout Menu
+- Version 1.0
+- Source code
+- contact@fabianlins.com
+- https://github.com/FabianLins/flyout_menu
+- https://www.jqueryscript.net/menu/fixed-flyout-menu.html
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.samplebox{
+    height:400px;
+    background:lightblue;
+}
+
+.color01{
+    background-color:white;
+}
+
+.color02{
+    background-color:rgb(209, 218, 223);
+ }
+
+ .color03{
+    background-color:rgb(175, 183, 187);
+ }
+
+ p{
+    font-size:30px;
+    padding:50px;
+    font-family: sans-serif;
+}

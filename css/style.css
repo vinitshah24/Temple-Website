@@ -1,0 +1,618 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #E63946;
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    font-size: 38px;
+}
+
+/**Navigations*/
+.nav-links {
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: #E63946;
+    font-size: 18px;
+    font-weight: bold;
+    top: 0;
+    margin: 0;
+}
+
+.nav-li {
+    display: inline-table;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-li a {
+    color: whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-li a:hover {
+    background-color: rgb(255, 109, 121);
+    color: white;
+}
+
+/**Page Title*/
+.div-title {
+    padding-bottom: 0px;
+    color: rgb(238, 38, 38);
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgb(255, 213, 213);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/**Footer*/
+footer {
+    text-align: center;
+    background: #1F2421;
+}
+
+.footer-title {
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+.footer-addr {
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.social-icons {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background: #E63946;
+    color: white;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.ig:hover {
+    background: rgb(201, 91, 223);
+}
+
+.yt:hover {
+    background: rgb(248, 26, 26);
+}
+
+.fb:hover {
+    background: rgba(77, 142, 226, 0.808);
+}
+
+.tw:hover {
+    background: rgb(96, 158, 240);
+}
+
+.social-icons a i {
+    transition: 0.4s all;
+}
+
+.social-icons a:hover>i {
+    transform: scale(1.6) rotate(25deg);
+}
+
+/**Index*/
+#mission-t1 {
+    color: black;
+    text-align: center;
+}
+
+#mission-h2 {
+    margin-top: 10px;
+    color: rgb(241, 26, 26);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mission {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.div-mission {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#dtime-h1 {
+    text-align: center;
+    border: none;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.darshan-tt {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 1px rgb(175, 171, 171) solid;
+    position: relative;
+}
+
+@media screen and (min-width: 800px) {
+    .darshan-tt {
+        width: 90%;
+    }
+}
+
+/* if the browser window is at least 1000px-s wide: */
+@media screen and (min-width: 1000px) {
+    .darshan-tt {
+        width: 50%;
+    }
+}
+
+.time-th {
+    color: black;
+    background-color: #E5D7E8;
+    font-size: 20px;
+}
+
+.time-tr {
+    background-color: wheat;
+    font-size: 18px;
+    border: 1px rgb(216, 214, 214) solid;
+}
+
+.time-tr:nth-child(even) td {
+    background-color: #EDAFB8;
+}
+
+.time-tr:nth-child(odd) td {
+    background-color: #F7E1D7;
+}
+
+.darshan-tt,
+.time-tr,
+.time-td,
+.time-th {
+    padding: 10px;
+}
+
+.time-td {
+    width: 15%;
+}
+
+.time-td:hover {
+    background-color: rgb(247, 227, 189);
+    color: #EF3054;
+}
+
+.front-image {
+    height: 25%;
+    width: 90%;
+    border: rgb(219, 16, 16) 2px solid;
+}
+
+.VPSC-image {
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/**About*/
+#nav_list li {
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: dimgrey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nav_list li {
+    display: inline-table;
+    margin: 13px 10px 0px 10px;
+    border-radius: 8px;
+}
+
+#nav_list li a {
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#nav_list li a:hover {
+    border-radius: 8px;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#json-nav_list {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#json-div {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+#json-div img {
+    width: 600px;
+    height: 400px;
+    float: left;
+    margin-right: 40px;
+    position: relative;
+    object-fit: cover;
+}
+
+#json-data {
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+#json-all {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+/**Contact*/
+.div-form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.div-form h4 {
+    margin-top: 20px;
+}
+
+.form-info {
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 22px;
+}
+
+.form-info label {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.form-info input,
+.form.info textarea {
+    width: 300px;
+    border: solid 0.5px;
+    font-size: 18px;
+    margin-top: 2px;
+    padding: 6px;
+}
+
+#form-data {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-info textarea {
+    width: 300px;
+    height: 150px;
+    border: solid 0.5px;
+    font-size: 18px;
+    padding: 6px;
+}
+
+#form-title-info {
+    text-align: center;
+}
+
+.req {
+    color: red;
+}
+
+.submit-button {
+    display: block;
+    background: rgb(248, 65, 80);
+    color: #FFFFFF;
+    border-radius: 2em;
+    cursor: pointer;
+    padding: 8px 14px 8px 12px;
+    margin-left: 9px;
+    font-size: 18px;
+    border: 0.16em solid rgba(84, 137, 207, 0);
+    transition: 0.1s;
+}
+
+.submit-button:hover {
+    border-color: rgba(255, 255, 255, 1);
+}
+
+#google-map {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hr-contact {
+    margin-left: 400px;
+    margin-right: 400px;
+    border-width: 2px;
+    background-color: black;
+    height: 2px;
+    border: 0;
+}
+
+.volunteers-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.volunteer-tt {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    border: 1px rgb(175, 171, 171) solid;
+}
+
+.volunteer-th {
+    color: black;
+    background-color: #E5D7E8;
+    font-size: 20px;
+}
+
+.volunteer-tr {
+    background-color: wheat;
+    font-size: 18px;
+    border: 1px rgb(216, 214, 214) solid;
+}
+
+.volunteer-tr:nth-child(even) td {
+    background-color: #EDAFB8;
+}
+
+.volunteer-tr:nth-child(odd) td {
+    background-color: #F7E1D7;
+}
+
+.volunteer-tt,
+.volunteer-tr,
+.volunteer-td,
+.volunteer-th {
+    padding: 20px;
+}
+
+.volunteer-td {
+    width: auto;
+}
+
+.volunteer-td:hover {
+    background-color: rgb(247, 227, 189);
+    color: #EF3054;
+}
+
+/**Gallery*/
+div.gallery {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+div.gallery:hover {
+    border: 1px solid red;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.events-img {
+    width: 500px;
+    height: 300px;
+}
+
+.image-gallery {
+    margin-left: 25px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.temple-img {
+    padding: 0 6px;
+    float: left;
+    width: 420px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .temple-img {
+        width: 45%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .temple-img {
+        width: 90%;
+    }
+}
+
+.div-directions h2 {
+    text-align: center;
+}
+
+/**Events*/
+
+.festivals-table {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.festivals-th {
+    color: #C81D25;
+    font-size: 20px;
+}
+
+.festivals-tr {
+    background-color: wheat;
+    font-size: 18px;
+}
+
+.festivals-table,
+.festivals-tr,
+.festivals-td,
+.festivals-th {
+    padding: 5px 20px 5px 20px;
+}
+
+.festivals-td:hover {
+    background-color: rgb(247, 227, 189);
+    color: #EF3054;
+}
+
+.slide-img {
+    height: 100%;
+    width: 90%;
+}
+
+#slides img {
+    display: none;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#slides {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#image-slider {
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#go-top {
+    display: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 25px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.932);
+}
+
+@font-face {
+    font-family: "iconfont";
+    src: url('iconfont.eot?t=1516696716663');
+    /* IE9*/
+    src: url('iconfont.eot?t=1516696716663#iefix') format('embedded-opentype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+        url('iconfont.svg?t=1516696716663#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.icon-cc-top:before {
+    content: "\e6a9";
+}
+
+#slider {
+    margin: 0px;
+}
+
+.slider-div {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/**Flickr Gallery*/
+#flickr-div {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#flickr-div {
+    overflow: hidden;
+}
+
+a img {
+    width: 300px;
+    height: 250px;
+    max-height: 250px;
+}
