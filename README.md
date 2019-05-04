@@ -1,7 +1,7 @@
 <h1>WEBSITE OVERVIEW </h1>
 I have used several jQuery UI and plugins for making the website more interactive. On the index.html page, I have implemented a move-top plugin which allows the user to directly move to the top of the page by clicking the button. On this page, I have also created a slider by using JavaScript. On the About.html page, I have implemented Ajax functionality where I am reading the JSON files and parsing out information to display on the button click. On the Events.html page, I have implemented another jQuery Events UI which displays all the upcoming events for the current month. On the Gallery.html page, I have implemented a jQuery image slider which displays pictures of the events or festivals celebrated at the temple. On the contact page, I have implemented a social media slider plugin which allows the user to quickly navigate to the social media links of the temple. I have also implemented a google map iframe which shows the location of the temple. On FlickrGallery.html, I have implemented another Ajax request. Here, I am using Flickr API to request a JSON file for a specific hashtag and then parsing it using Ajax to display the images.
-</br>
-<b>I have followed the accessibility guidelines by following several techniques from the WCAG2 guidelines:</b>
+
+<h3>WCAG2 Accessibility Guidelines:</h3>
 
 1.1	Text Alternatives
 
